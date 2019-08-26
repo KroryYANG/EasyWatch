@@ -19,6 +19,7 @@ namespace EasyWatch
 
         public Form1()
         {
+            
             InitializeComponent();
         }
 
