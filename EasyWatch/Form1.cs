@@ -193,6 +193,7 @@ namespace EasyWatch
                 }
                 if (checkBox2.Checked)  //显示发送
                 {
+
                     if (checkBox1.Checked) { SetText(DateTime.Now.ToString("[HH:mm:ss] ") + str.ToUpper() + '\n'); }    //显示时间
                     else { SetText(str.ToUpper() + '\n'); } //不显示时间
                 }
